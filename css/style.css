@@ -1,3 +1,8 @@
+/**
+ * Author: Hong Wang
+ * Github: https://github.com/H0NGWANG
+ * Color Select: https://colorhunt.co/palette/42191
+**/
 body {
     font-family: 'Noto Sans', sans-serif;
     padding: 40px 0px;
@@ -9,8 +14,11 @@ main {
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
+a, a:hover {
+    color: #64b2b6;
+}
+
 .left-side {
-    border-right: 1px solid #ddd;
     padding: 25px;
 }
 
@@ -23,17 +31,31 @@ main {
 }
 
 .btn-download {
-    padding: 5px;
+    padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #71c9ce;
     width: 100%;
     border-radius: 0px;
+}
+
+.btn-download:hover {
+    color: white;
+    background-color: #64b2b6;
 }
 
 .btn:focus, .btn:active {
     outline: none !important;
     box-shadow: none;
     color: white;
+}
+
+.social {
+    padding: 0;
+    list-style-type: none;
+}
+
+.social i {
+    width: 20px;
 }
 
 .right-side {
@@ -48,4 +70,10 @@ section {
 footer {
     text-align: center;
     padding: 30px;
+}
+
+@media (min-width: 992px) {
+    .left-side {
+        border-right: 1px solid #ddd;
+    }
 }
