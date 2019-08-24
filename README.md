@@ -1,3 +1,5 @@
 # pure-cv
-You're welcome to use it if you agree to leave the footer credits in place.
+> This HTML template is designed by [Hong Wang](https://github.com/H0NGWANG).
 
+## License
+This project is licensed under the [MIT license](https://github.com/H0NGWANG/pure-cv/blob/master/LICENSE).
