@@ -1,0 +1,28 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 40px 0px;
+}
+
+main {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.left-side {
+    border-right: 1px solid #ddd;
+    padding: 25px;
+}
+
+.right-side{
+    padding: 0px;
+}
+
+section{
+    padding: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
