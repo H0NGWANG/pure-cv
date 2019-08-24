@@ -6,6 +6,7 @@ body {
 main {
     background-color: #fff;
     border: 1px solid #ddd;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 .left-side {
@@ -13,11 +14,33 @@ main {
     padding: 25px;
 }
 
-.right-side{
+.profile {
+    text-align: center;
+}
+
+.picture img {
+    max-width: 100%;
+}
+
+.btn-download {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+    color: white;
+}
+
+.right-side {
     padding: 0px;
 }
 
-section{
+section {
     padding: 40px;
     border-bottom: 1px solid #ddd;
 }
