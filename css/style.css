@@ -1,11 +1,11 @@
 /**
  * Author: Hong Wang
  * Github: https://github.com/H0NGWANG
- * Color Select: https://colorhunt.co/palette/42191
 **/
 body {
     font-family: 'Noto Sans', sans-serif;
     padding: 40px 0px;
+    color: #3d3d3f;
 }
 
 main {
@@ -18,19 +18,31 @@ a, a:hover {
     color: #64b2b6;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #64b2b6;
+}
+
 .left-side {
     padding: 25px;
 }
 
 .profile {
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.profile h1 {
+    padding-top: 20px;
+    text-transform: uppercase;
 }
 
 .picture img {
     max-width: 100%;
 }
 
-.btn-download {
+.btn-cv {
     padding: 10px;
     color: white;
     background-color: #71c9ce;
@@ -38,8 +50,8 @@ a, a:hover {
     border-radius: 0px;
 }
 
-.btn-download:hover {
-    color: white;
+.btn-cv:hover {
+    color: #fff;
     background-color: #64b2b6;
 }
 
@@ -67,6 +79,57 @@ section {
     border-bottom: 1px solid #ddd;
 }
 
+.section-title {
+    text-transform: uppercase;
+    margin-left: -5px;
+}
+
+.job .upper-row {
+    position: relative;
+}
+
+.job .company {
+    color: #71c9ce;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.job .time {
+    font-size: 15px;
+    font-weight: 500;
+    color: #71c9ce;
+}
+
+.job .job-title {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.job li {
+    font-size: 15px;
+}
+
+.contact-form{
+    padding-top: 5px;
+}
+
+.form-group input, .form-group textarea{
+    border-radius: 0px;
+    border-color: #ddd;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-radius: 0px;
+    border-color: #ddd;
+}
+
+.contact-submit{
+    margin-top: 15px;
+}
+
 footer {
     text-align: center;
     padding: 30px;
@@ -75,5 +138,22 @@ footer {
 @media (min-width: 992px) {
     .left-side {
         border-right: 1px solid #ddd;
+    }
+
+    .job .time{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .job .upper-row {
+        position: relative;
+    }
+
+    header {
+        /* fixed sidebar */
+        position: -webkit-sticky;
+        position: sticky;
+        top: 25px;
     }
 }
