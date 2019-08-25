@@ -30,7 +30,7 @@ h2 {
 
 .profile {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .profile h1 {
@@ -84,31 +84,38 @@ section {
     margin-left: -5px;
 }
 
-.job .upper-row {
+.upper-row {
     position: relative;
 }
 
-.job .company {
+.company, .school-name{
     color: #71c9ce;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0px;
 }
 
-.job .time {
+.time {
     font-size: 15px;
     font-weight: 500;
     color: #71c9ce;
 }
 
-.job .job-title {
+.job-title, school-title {
     font-size: 14px;
     font-style: italic;
     margin-bottom: 5px;
 }
 
-.job li {
+.job li, section {
     font-size: 15px;
+}
+
+.honors h3{
+    color: #71c9ce;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
 }
 
 .contact-form {
@@ -136,14 +143,10 @@ footer {
         border-right: 1px solid #ddd;
     }
 
-    .job .time {
+    .time {
         position: absolute;
         right: 0;
         top: 0;
-    }
-
-    .job .upper-row {
-        position: relative;
     }
 
     header {
