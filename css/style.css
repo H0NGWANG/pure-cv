@@ -101,7 +101,7 @@ section {
     color: #71c9ce;
 }
 
-.job-title, school-title {
+.job-title, .school-title {
     font-size: 14px;
     font-style: italic;
     margin-bottom: 5px;
