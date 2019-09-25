@@ -138,6 +138,12 @@ footer {
     padding: 30px;
 }
 
+@media (max-width: 991.98px) {
+    .right-side {
+        border-top: 1px solid #ddd;
+    }
+}
+
 @media (min-width: 992px) {
     .left-side {
         border-right: 1px solid #ddd;
