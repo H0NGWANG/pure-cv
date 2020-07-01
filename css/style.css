@@ -38,8 +38,15 @@ h2 {
     text-transform: uppercase;
 }
 
+.picture {
+    background-image: url(../img/hongwang-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .picture img {
     max-width: 100%;
+    opacity: 0;
 }
 
 .btn-cv {
