@@ -2,7 +2,7 @@
 
 > A clean, modern, and fully responsive HTML résumé (CV) template designed by [Hong Wang](https://github.com/H0NGWANG/).
 
-[![pure-cv demo](https://github.com/H0NGWANG/pure-cv/blob/master/img/demo.jpg?raw=true)](https://h0ngwang.github.io/pure-cv/)
+[![pure-cv demo](https://github.com/H0NGWANG/pure-cv/blob/master/img/demo2.jpg?raw=true)](https://h0ngwang.github.io/pure-cv/)
 
 ## ✨ Features
 - **Dark/Light Mode:** Automatic theme switching based on user system preference, with a manual toggle.
